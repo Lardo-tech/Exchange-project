@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+<meta charset="UTF-8">
+<title>valuta-omzetter</title>
+<link rel="stylesheet" href="./stylesheet.css">
+</head>
+
+<body>
+    <div class="omzetter-body-container">
+        <div class="title-container">
+          <img src="./images/money-left.png" alt="money-left" class="img-small">
+          <h1>valuta omzetter</h1>
+          <img src="./images/money-right.png" alt="money-right" class="img-small">
+        </div>
+        <div class="text-container">
+          <h2>Laatst bijgewerkt</h2>
+          <p id="update"></p>
+        </div>
+        <div class="input-container">
+          <div class="dropdowns">
+            <select id="van-valutta"></select>
+            <select id="naar-valutta"></select>
+          </div>
+          <label for="amount">Bedrag:</label>
+          <input type="number" id="amount" value="1" />
+          <button id="overzetten-button" class="button">Overzetten</button>
+          <p id="result"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

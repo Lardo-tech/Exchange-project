@@ -1,0 +1,130 @@
+
+/* Algemene styling */
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  outline: none;
+}
+body {
+  background-image: url(./images/flagbackground.jpg);
+}
+
+/* Containers */
+
+.omzetter-body-container {
+  background-color: #9f9f9f;
+  color: white;
+  padding: 2em;
+  text-align: center;
+  border-radius: 30px;
+  width: 520px;
+  height: 620px;
+  margin-left: 38%;
+  margin-top: 10%;
+}
+.title-container {
+  background: #0077ff;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  max-width: 520px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.input-container {
+  border-radius: 5px;
+  width: 100%;
+  max-width: 520px;
+}
+.text-container {
+  border-radius: 5px;
+  width: 100%;
+  max-width: 520px;
+}
+
+/* Input velden */
+
+  label {
+    display: block;
+    font-weight: 600;
+  }
+  input#amount {
+    font-weight: 400;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #02002c;
+    color: black;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .dropdowns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+
+  /* Foto's */
+
+  .img-small {
+    width: 30%;
+  }
+
+  /* Bedrag selecteer veld */
+
+  select {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%, center;
+    background-size: 20px 20px;
+    background-color: #0077ff;
+    color: #ffffff;
+  }
+  select option {
+    background-color: #ffffff;
+    color: #02002c;
+  }
+
+  /* Knop */
+
+  button {
+    font-size: 20px;
+    width: 100%;
+    background-color: #0077ff;
+    padding: 15px;
+    margin-top: 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  .button:hover {
+    background-color: #4aca27;
+    color: white;
+  }
+
+  /* Resultaat */
+
+  #result {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #02002c;
+    background-color: #b3dffe;
+    padding: 20px;
+  }
